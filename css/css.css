@@ -1,0 +1,142 @@
+.mainbar{
+  /* height: 50px; */
+  position: fixed;
+  padding: 30px 0px;
+  margin: 0px;
+  background-color:black;
+  text-align: center;
+  width: 100%;
+  z-index: 1000;
+}
+.link{
+  height: 100%;
+  margin: auto;
+  /* height: 25px; */
+  font-size: 30px;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: white;
+}
+.selected{
+  /* background-color: black; */
+   color: yellow;
+}
+table{
+  /* position: absolute; */
+  /* margin-top:-70px; */
+  /* margin-left: 26%; */
+  border: 2px solid black;
+  border-radius: 5px;
+}
+th, td{
+  padding: 10px;
+  border-right: 2px solid black;
+  border-bottom:  2px solid black;
+  border-radius: 5px;
+
+}
+.link:hover{
+  color: yellow;
+}
+/* * {box-sizing: border-box} */
+/* .mySlides1, .mySlides2, .mySlides3 {display: none} */
+/* img {vertical-align: middle;} */
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  /* margin: auto; */
+  top: 50px;
+  width: 20%;
+  padding-left: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  margin-left: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -2px;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 2px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.text{
+  text-align: center;
+  padding-top:30px;
+}
+h1{
+  /* font-size: 50px; */
+  margin: 0px;
+  /* position: absolute; */
+  /* margin-top:-100px; */
+  /* margin-left: 100%; */
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 50px;
+  padding-top: 50px;
+}
+h6{
+  font-size: 20px;
+  /* background-color: black; */
+  position: absolute;
+  position: fixed;
+  color:red;
+  /* transform: rotate(-15deg); */
+  margin-left: 58%;
+  z-index: 1500;
+  margin-top: 60px;
+}
+p{
+  margin: 0px;
+}
+.p1{
+  padding: 0px 20%;
+}
+body{
+  height: 1000px;
+  margin: 0px;
+}
+.details{
+  position: absolute;
+  margin-top:-133px;
+  margin-left: 22%;
+}
+.servicii{
+/* position: absolute; */
+margin: auto;
+}
+.wholeindex{
+  /* position: absolute; */
+  padding-top: 100px;
+}
+form{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 20px;
+}
