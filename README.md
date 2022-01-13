@@ -1,2 +1,7 @@
 # WebSite
-Website for a car dealership.
+This is a website for a car dealership.
+## Technologies
+* HTML
+* PHP
+* CSS
+* MySQL
